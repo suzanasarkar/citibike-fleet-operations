@@ -1,14 +1,10 @@
 # 🚲 NYC Citi Bike Fleet Operations — Operational Risk Mitigation Analysis
 
-**Solo Project | Business Analytics | MSBA, University of Washington Tacoma**
+An end-to-end data anal ytics system that transforms Citi Bike's Fleet Operations from reactive complaint response to proactive, data-driven resource deployment using publicly available data from Citi bike NYC.
 
-An end-to-end data analytics system that transforms Citi Bike's Fleet Operations from reactive complaint response to proactive, data-driven resource deployment.
+Project Overview:
 
----
-
-## 📌 Project Overview
-
-Citi Bike's Fleet Operations Management oversees the largest bike-share network in North America — thousands of bikes across hundreds of NYC docking stations. The core problem: operations ran reactively. Rebalancing trucks responded to complaints *after* shortages occurred. Maintenance crews defaulted to the busiest Manhattan stations while problems clustered elsewhere.
+Citi Bike's Fleet Operations Management oversees the largest bike-share network in North America, thousands of bikes across hundreds of NYC docking stations. The core problem: operations ran reactively. Rebalancing trucks responded to complaints *after* shortages occurred. Maintenance crews defaulted to the busiest Manhattan stations while problems clustered elsewhere.
 
 This project builds the full analytical infrastructure to fix that:
 
@@ -20,7 +16,7 @@ This project builds the full analytical infrastructure to fix that:
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 citibike-fleet-operations/
@@ -43,7 +39,7 @@ citibike-fleet-operations/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Tool |
 |---|---|
@@ -55,7 +51,7 @@ citibike-fleet-operations/
 
 ---
 
-## 🗄️ Database Design
+## Database Design
 
 **Fact Table**
 - `CitiBikeRides` — raw trip records (99,930 rows, October 2025)
@@ -72,7 +68,7 @@ citibike-fleet-operations/
 
 ---
 
-## 📊 Tableau Dashboards
+## Tableau Dashboards
 
 **Live links (Tableau Public):**
 - [Asset Utilization Dashboard](https://public.tableau.com/views/NYCCitibikeFleetOperationsAnOperationalRiskMitigationAnalysis/AssetUtilizationDashboard)
@@ -100,7 +96,7 @@ Progressive investigation designed for root-cause analysis:
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 1. **Fleet imbalance is localized, not systemic** — 84 net displaced bikes (<0.1% of rides), but Financial District stations face chronic morning shortages
 2. **42% of operational stress compresses into 4 hours daily** — requires time-specific rebalancing schedules
@@ -110,7 +106,7 @@ Progressive investigation designed for root-cause analysis:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Single-month scope (October 2025) — seasonal variation not captured
 - Risk Index weights are analyst-defined — should be calibrated with operations team
@@ -119,7 +115,7 @@ Progressive investigation designed for root-cause analysis:
 
 ---
 
-## 🔭 Next Steps
+##  Next Steps
 
 - Expand to multi-month historical data for seasonal modeling
 - Build automated alerting when Station Risk Index exceeds threshold
@@ -128,4 +124,4 @@ Progressive investigation designed for root-cause analysis:
 
 ---
 
-*Suzana Sarkar | MSBA, Milgard School of Business, University of Washington Tacoma*
+*Suzana Sarkar | MSBA, Milgard School of Business, University of Washington*
